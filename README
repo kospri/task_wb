@@ -1,0 +1,16 @@
+
+Dependencies:
+    * Python 2.6
+    * python selenium webdriver
+    * py.test 
+    * firefox
+
+Setup:
+    * easy_install -U webdriver
+    * easy_install -U py
+    * python setup.py develop
+
+Running:
+    * To start all tests you should run:
+    		py.test tests/ 
+    		For more information see info about py.test parameters
